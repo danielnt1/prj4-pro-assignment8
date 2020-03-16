@@ -1,39 +1,72 @@
 * {
-  padding: 0;
-  margin: 0;
-  font-family: 'Oxanium', cursive;
-  
+	padding: 0;
+	border: 0;
+	margin: auto;
+	
 }
 
+body {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://www.xgn.nl/images/articles/2019/201909/_1280x720_crop_center-center_82_line/wallpaper-pick-september-met-borderlands-3-en-it-chapter-two-154076.jpg');
+	background-size: cover;
+	position: relative;
+}
 h1 {
-	color: cornflowerblue;
-	font-size: 2em;
+	font-family: 'Teko', sans-serif;
+	text-align: center;
+	font-size: 80px;
+	font-stretch: 3px;
 	width: 100%;
+	color: white;
+	opacity: 1;
 }
 
-.epic { 
-	background-image: url('https://previews.123rf.com/images/oksancia/oksancia1307/oksancia130704342/21263924-pastel-blue-fabric-ikat-diamond-seamless-pattern-background.jpg');
-	font-weight: 500;
-	color: black;
+h2 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
 }
 
-#end {
-	padding: 50px;
+p {
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 1.25em;
+	text-align: justify;
+	padding: 20px;
 }
 
-#nav {
-	padding-left: 30px;
+.character {
+	opacity: 0.5;
 }
 
-.profile {
-	display: block;
-	width: 240px;
-	margin-left: auto;
-	margin-right: auto;
+.character:hover {
+	opacity: 1;
 }
 
-.centre {
-	margin-left: auto;
-	margin-right: auto;
-	width: 500px;
+.promo {
+	font-family: 'Teko', sans-serif;
+	font-size: 3em;
+	color: #F2E9CE;
+	border: 0;
+	padding: 0 20px 0 20px;
+}
+
+#header {
+	padding: 30px;
+	background-color: rgba(121,190,217,0.5);
+}
+
+#footer {
+	padding: 20px;
+	background-color: rgba(121,190,217,0.5);
+}
+
+
+#ignore {
+	font-family: 'Teko', sans-serif;
+ 	font-family: 'Oswald', sans-serif;
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+#characters {
+	border: 10px solid #3C401E;
+	padding: 20px 0;
+	background-color: rgba(0, 0, 0, 0.5);
 }
