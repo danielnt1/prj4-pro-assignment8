@@ -8,7 +8,8 @@
 body {
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://www.xgn.nl/images/articles/2019/201909/_1280x720_crop_center-center_82_line/wallpaper-pick-september-met-borderlands-3-en-it-chapter-two-154076.jpg');
 	background-size: cover;
-	position: relative;
+	background-position: center;
+	position: center;
 }
 h1 {
 	font-family: 'Teko', sans-serif;
@@ -46,6 +47,15 @@ p {
 	color: #F2E9CE;
 	border: 0;
 	padding: 0 20px 0 20px;
+}
+
+.promo1 {
+	font-family: 'Teko', sans-serif;
+	font-size: 2em;
+	color: #F2E9CE;
+	border: 0;
+	padding: 0 20px 0 20px;
+	text-align: center;
 }
 
 #header {
