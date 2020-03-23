@@ -2,7 +2,6 @@
 	padding: 0;
 	border: 0;
 	margin: auto;
-	
 }
 
 body {
@@ -11,6 +10,7 @@ body {
 	background-position: center;
 	position: center;
 }
+
 h1 {
 	font-family: 'Teko', sans-serif;
 	text-align: center;
@@ -75,7 +75,7 @@ p {
 	font-family: 'Baloo Chettan 2', cursive;
 }
 
-#characters {
+.characters {
 	border: 10px solid #3C401E;
 	padding: 20px 0;
 	background-color: rgba(0, 0, 0, 0.5);
